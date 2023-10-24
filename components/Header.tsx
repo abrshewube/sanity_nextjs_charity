@@ -20,9 +20,12 @@ const CharityHeader = () => {
           <li className="mr-4">
             <a href="#contact">Contact Us</a>
           </li>
+          <li className="mr-4">
+            <a href="/doante">Donate</a>
+          </li>
         </ul>
       </nav>
-      <div className="bg-blue-700 p-4 text-center">
+      {/* <div className="bg-blue-700 p-4 text-center">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-2">
           Helping Those in Need
         </h1>
@@ -33,7 +36,7 @@ const CharityHeader = () => {
         >
           Donate Now
         </a>
-      </div>
+      </div> */}
     </header>
   );
 };
